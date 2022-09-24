@@ -16,7 +16,7 @@ namespace Devs2Blu.ProjetosAula.OOP3.Main
         static void Main(string[] args)
         {
             int opcao;
-            Mock = new Mocks();
+            Mock = new Mocks(); //atualizando git hub 24/09 10:30
             do
             {
                 Console.WriteLine("              ----- +Devs2BLU - C# -----\n");
