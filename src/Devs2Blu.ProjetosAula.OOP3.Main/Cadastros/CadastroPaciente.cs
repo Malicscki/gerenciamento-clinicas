@@ -22,12 +22,14 @@ namespace Devs2Blu.ProjetosAula.OOP3.Main.Cadastros
 
             do
             {
-                Console.WriteLine("----- Cadastro de Pacientes -----");
-                Console.WriteLine("----- 1- Lista de Pacientes -----");
-                Console.WriteLine("----- 2- Cadastro de Pacientes -----");
-                Console.WriteLine("----- 3- Alterar Pacientes -----");
-                Console.WriteLine("---------------------");
-                Console.WriteLine("----- 0- Sair -----");
+                Console.WriteLine("   ╔═════════════════════════════════════════════════╗");
+                Console.WriteLine("   ║        Cadastro de Pacientes                    ║");
+                Console.WriteLine("   ║        1- Lista de Pacientes                    ║");
+                Console.WriteLine("   ║        2- Cadastro de Pacientes                 ║");
+                Console.WriteLine("   ║        3- Alterar Pacientes                     ║");
+                Console.WriteLine("   ║                                                 ║");
+                Console.WriteLine("   ║        0- Sair                                  ║");
+                Console.WriteLine("   ╚═════════════════════════════════════════════════╝ ");
                 Int32.TryParse(Console.ReadLine(), out opcao);
 
                 switch (opcao)
@@ -57,9 +59,9 @@ namespace Devs2Blu.ProjetosAula.OOP3.Main.Cadastros
             }
         }
 
-        public void CadastrarPaciente()
+        public void CadastrarPaciente(Paciente novoPaciente)
         {
-
+            Program.Mock.ListaPacientes.Add(novoPaciente);
         }
 
         public void AlterarPaciente()

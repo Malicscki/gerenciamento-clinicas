@@ -35,7 +35,7 @@ namespace Devs2Blu.ProjetosAula.OOP3.Main.Utils
         {
             for (int i = 0; i < 10; i++)
             {
-                Paciente paciente = new Paciente(i, $"Paciente {i + 1}", $"{i}23{i}56{i}891{i}", "Unimed");
+                Paciente paciente = new Paciente(i, $"Paciente {i + 1}", $"{i}23.{i}56.{i}89-1{i}", "Unimed");
                 ListaPacientes.Add(paciente);
             }
         }

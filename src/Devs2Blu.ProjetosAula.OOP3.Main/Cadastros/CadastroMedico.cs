@@ -58,9 +58,9 @@ namespace Devs2Blu.ProjetosAula.OOP3.Main.Cadastros
             }
         }
 
-        public void CadastrarMedico()
+        public void CadastrarMedico(Medico novoMedico)
         {
-
+            Program.Mock.ListaMedicos.Add(novoMedico);
         }
 
         public void AlterarMedico()

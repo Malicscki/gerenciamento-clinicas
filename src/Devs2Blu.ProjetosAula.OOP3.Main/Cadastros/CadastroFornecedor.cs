@@ -58,9 +58,9 @@ namespace Devs2Blu.ProjetosAula.OOP3.Main.Cadastros
             }
         }
 
-        public void CadastrarFornecedor()
+        public void CadastrarFornecedor(Fornecedor novoFornecedor)
         {
-
+            Program.Mock.ListaFornecedores.Add(novoFornecedor);
         }
 
         public void AlterarFornecedor()

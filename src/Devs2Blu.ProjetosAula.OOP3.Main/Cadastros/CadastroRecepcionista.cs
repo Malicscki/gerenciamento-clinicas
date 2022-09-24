@@ -58,9 +58,9 @@ namespace Devs2Blu.ProjetosAula.OOP3.Main.Cadastros
             }
         }
 
-        public void CadastrarRecpecionista()
+        public void CadastrarRecpecionista(Recepcionista novoRecepcionista)
         {
-
+            Program.Mock.ListaRecepcionistas.Add(novoRecepcionista);
         }
 
         public void AlterarRecepcionista()
