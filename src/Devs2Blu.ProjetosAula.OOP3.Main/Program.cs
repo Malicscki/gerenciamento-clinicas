@@ -16,10 +16,10 @@ namespace Devs2Blu.ProjetosAula.OOP3.Main
         static void Main(string[] args)
         {
             int opcao;
-            Mock = new Mocks(); //atualizando git hub 24/09 10:30
+            Mock = new Mocks();
             do
             {
-                Console.WriteLine("              ----- +Devs2BLU - C# -----\n");
+                Console.WriteLine("              -----═ +Devs2BLU - C# ═-----\n");
                 Console.WriteLine("   ╔═════════════════════════════════════════════════╗ ");
                 Console.WriteLine("   ║       Sistema de Gerencimento de Clínicas       ║ ");
                 Console.WriteLine("   ║       10- Cadastro de Pacientes                 ║ ");

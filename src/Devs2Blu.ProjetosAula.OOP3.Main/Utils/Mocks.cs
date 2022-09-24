@@ -14,7 +14,7 @@ namespace Devs2Blu.ProjetosAula.OOP3.Main.Utils
         public List<Recepcionista> ListaRecepcionistas { get; set; }
         public List<Fornecedor> ListaFornecedores { get; set; }
 
-        public Mocks() //teste commit 24/09
+        public Mocks() 
         {
             ListaPacientes = new List<Paciente>();
             ListaMedicos = new List<Medico>();
