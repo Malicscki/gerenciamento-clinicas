@@ -28,6 +28,7 @@ namespace Devs2Blu.ProjetosAula.OOP3.Main.Utils
             CargaPacientes();
             CargaMedicos();
             CargaRecepcionistas();
+            CargaFornecedores();    
         }
 
         public void CargaPacientes()
