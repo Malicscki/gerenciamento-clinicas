@@ -43,6 +43,11 @@ namespace Devs2Blu.ProjetosAula.OOP3.Main
                         moduloCadastroRecepcionistas.MenuCadastro();
                         break;
 
+                    case (int)MenuEnums.CAD_FOR:
+                        CadastroFornecedor moduloCadastroFornecedores = new CadastroFornecedor();
+                        moduloCadastroFornecedores.MenuCadastro();
+                        break;
+
                     case (int)MenuEnums.CAD_MED:
                         CadastroMedico moduloCadastroMedico = new CadastroMedico();
                         moduloCadastroMedico.MenuCadastro();

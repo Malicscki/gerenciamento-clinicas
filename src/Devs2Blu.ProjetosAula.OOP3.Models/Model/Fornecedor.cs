@@ -17,7 +17,7 @@ namespace Devs2Blu.ProjetosAula.OOP3.Models.Model
             TipoPessoa = TipoPessoa.PJ;
         }
 
-        public Fornecedor(Int32 codigo, String nome, String cpf, String tipoFornecedor)
+        public Fornecedor(Int32 codigo, String nome, String cpf, int v, String tipoFornecedor)
         {
             Codigo = codigo;
             Nome = nome;
