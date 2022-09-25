@@ -49,12 +49,12 @@ namespace Devs2Blu.ProjetosAula.OOP3.Main.Cadastros
 
             foreach (Fornecedor fornecedor in Program.Mock.ListaFornecedores)
             {
-                Console.WriteLine("-----------------------------------------");
-                Console.WriteLine($"Fornecedor: {fornecedor.CodigoFornecedor}");
-                Console.WriteLine($"Nome: {fornecedor.Nome}");
-                Console.WriteLine($"Tipo: {fornecedor.TipoFornecedor}");
-                Console.WriteLine($"CNPJ: {fornecedor.CGCCPF}");
-                Console.WriteLine("-----------------------------------------\n");
+                Console.WriteLine("\t-----------------------------------------");
+                Console.WriteLine($"\tFornecedor: {fornecedor.CodigoFornecedor}");
+                Console.WriteLine($"\tNome: {fornecedor.Nome}");
+                Console.WriteLine($"\tTipo: {fornecedor.TipoFornecedor}");
+                Console.WriteLine($"\tCNPJ: {fornecedor.CGCCPF}");
+                Console.WriteLine("\t-----------------------------------------\n");
             }
         }
 
