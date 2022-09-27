@@ -44,33 +44,41 @@ namespace Devs2Blu.ProjetosAula.OOP3.Main.Cadastros
 
             } while (!opcao.Equals(MenuEnums.SAIR));
         }
-
-        public void ListarPacientes()
+        public void Listar()
         {
-            Console.Clear();
-
-            foreach (Paciente paciente in Program.Mock.ListaPacientes)
-            {
-                Console.WriteLine("-----------------------------------------");
-                Console.WriteLine($"Paciente: {paciente.CodigoPaciente}");
-                Console.WriteLine($"Nome: {paciente.Nome}");
-                Console.WriteLine($"CPF: {paciente.CGCCPF}");
-                Console.WriteLine($"Convenio: {paciente.Convenio}");
-                Console.WriteLine("-----------------------------------------\n");
-            }
+            ListarPacientes();
         }
 
-        public void CadastrarPaciente(Paciente novoPaciente)
+       public void Cadastrar(Pessoa pessoa)
+        {
+            CadastrarPaciente((Paciente)pessoa);
+        }
+
+        public void Alterar(Pessoa pessoa)
+        {
+            AlterarPaciente((Paciente)pessoa);
+        }
+
+        public void Excluir(Pessoa pessoa)
+        {
+            ExcluirPaciente((Paciente)pessoa);
+        }
+
+        private void ListarPacientes()
+        {
+            throw new NotImplementedException();
+        }
+        private void CadastrarPaciente(Paciente novoPaciente)
         {
             Program.Mock.ListaPacientes.Add(novoPaciente);
         }
 
-        public void AlterarPaciente()
+        private void AlterarPaciente(Paciente paciente)
         {
 
         }
 
-        public void ExcluirPaciente()
+        private void ExcluirPaciente(Paciente paciente)
         {
 
         }
