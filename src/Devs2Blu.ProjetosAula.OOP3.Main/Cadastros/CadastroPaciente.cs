@@ -14,7 +14,7 @@ namespace Devs2Blu.ProjetosAula.OOP3.Main.Cadastros
     {
         public CadastroPaciente()
         {
-
+            //teste commit
         }
 
         public void MenuCadastro()
