@@ -10,7 +10,7 @@ namespace Devs2Blu.ProjetosAula.OOP3.Main.Interfaces
 {
     public interface IMenuCadastro
     {
-        void MenuCadastro();
+        Int32 MenuCadastro();
         void Listar();
         void Cadastrar(Pessoa pessoa);
         void Alterar(Pessoa pessoa);

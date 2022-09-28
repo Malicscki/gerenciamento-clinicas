@@ -17,12 +17,10 @@ namespace Devs2Blu.ProjetosAula.OOP3.Main.Cadastros
             //teste commit
         }
 
-        public void MenuCadastro()
+        public Int32 MenuCadastro()
         {
-            Int32 opcao;
-
-            do
-            {
+                Int32 opcao;
+                Console.Clear();
                 Console.WriteLine("   ╔═════════════════════════════════════════════════╗");
                 Console.WriteLine("   ║        Cadastro de Pacientes                    ║");
                 Console.WriteLine("   ║        1- Lista de Pacientes                    ║");
@@ -32,18 +30,8 @@ namespace Devs2Blu.ProjetosAula.OOP3.Main.Cadastros
                 Console.WriteLine("   ║        0- Sair                                  ║");
                 Console.WriteLine("   ╚═════════════════════════════════════════════════╝ ");
                 Int32.TryParse(Console.ReadLine(), out opcao);
-
-                switch (opcao)
-                {
-                    case (int)MenuEnums.LISTAR:
-                        ListarPacientes();
-                        break;
-                    default:
-                        break;
-                }
-
-            } while (!opcao.Equals(MenuEnums.SAIR));
-        }
+                return opcao;
+             }
         public void Listar()
         {
             ListarPacientes();
