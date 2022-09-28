@@ -13,7 +13,7 @@ namespace Devs2Blu.ProjetosAula.OOP3.Main.Cadastros
     {
         public CadastroPaciente()
         {
-
+            // aula 28/09 
         }
 
         public void MenuCadastro()

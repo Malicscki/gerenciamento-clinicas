@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Devs2Blu.ProjetosAula.OOP3.Main.Utils
 {
-    public class Mocks
+    public class Mocks //aula 28/09
     {
         public List<Paciente> ListaPacientes { get; set; }
         public List<Medico> ListaMedicos { get; set; }
