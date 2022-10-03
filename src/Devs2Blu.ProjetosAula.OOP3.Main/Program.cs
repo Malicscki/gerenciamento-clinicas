@@ -48,9 +48,19 @@ namespace Devs2Blu.ProjetosAula.OOP3.Main
                         opcaoMenuCadastros = menuCadastros.MenuCadastro();
                         break;
                     case (int)MenuEnums.CAD_MED:
-                        menuCadastros = new CadastroMedico(); //ajustar
+                        menuCadastros = new CadastroMedico();
                         opcaoMenuCadastros = menuCadastros.MenuCadastro();
                         break;
+                    case (int)MenuEnums.CAD_REC:
+                        menuCadastros = new CadastroRecepcionista();
+                        opcaoMenuCadastros = menuCadastros.MenuCadastro();
+                        break;
+                    case (int)MenuEnums.CAD_FOR:
+                        menuCadastros = new CadastroFornecedor();
+                        opcaoMenuCadastros = menuCadastros.MenuCadastro();
+                        break;
+
+
                     default:
                         menuCadastros = new CadastroPadrao();
                         opcaoMenuCadastros = (int)MenuEnums.SAIR;
