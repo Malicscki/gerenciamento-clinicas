@@ -181,7 +181,7 @@ namespace Devs2Blu.ProjetosAula.OOP3.Main.Cadastros
             Console.WriteLine("Informe o Recepcionista que Deseja Excluir:\n");
             ListarFornecedoresByCodeAndName();
             Int32.TryParse(Console.ReadLine(), out codFornecedor);
-            fornecedor = Program.Mock.ListaFornecedores.Find(f => f.CodigoFornecedor == codFornecedor);// Função Lambda
+            fornecedor = Program.Mock.ListaFornecedores.Find(f => f.CodigoFornecedor == codFornecedor);
             Console.WriteLine($"Fornecedor Excluido: {fornecedor.CodigoFornecedor}\n");
             Console.ReadKey();
 
